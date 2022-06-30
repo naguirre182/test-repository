@@ -9,45 +9,92 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
     <title>Servicios</title>
 </head>
 
 <body>
-    <header>
-        <nav class="headerMenu">
-            <img class="headerLogo" src="../Img/headerlogo.jpg" alt="Logo de la empresa">
-
-            <ul class="headerList">
-                <li class="itemList"><a href="../index.html">Inicio</a></li>
-                <li class="itemList"><a href="./nosotros.html">Nosotros</a></li>
-                <li class="itemList itemSubmenu"><a href="./servicios.html">Servicios</a>
-                    <ul class="sublist">
-                        <li>Subitem 1</li>
-                        <li>Subitem 2</li>
-                        <li>Subitem 3</li>
-                    </ul>
-                </li>
-
-                <li class="itemList"><a href="./novedades.html">Noticias</a></li>
-                <li class="itemList"><a href="./contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+            <nav class="navbar bg-light">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                <img src="https://i.ibb.co/QQk6jH0/headerlogo.jpg" alt="" width="80" height="30">
+              </a>
+            </div>
+          </nav>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav ">
+                  <li class="nav-item ">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./servicios.html">Servicios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="./novedades.html">Novedades</a>
+                    <li class="nav-item">
+                    <a class="nav-link " href="./contacto.html">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     </header>
 
-    <section>
-        <footer>
-            <img class="footerLogo" src="../Img/headerlogo.jpg" alt="Logo de la empresa">
+    <footer class="bg-light text-center text-white">
+      <!-- Grid container -->
+      <div class="container p-4 pb-0">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+          <!-- Facebook -->
+          <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998;" href="#!" role="button"><i
+              class="fab fa-facebook-f"></i></a>
+  
+          <!-- Twitter -->
+          <a class="btn btn-primary btn-floating m-1" style="background-color: #55acee;" href="#!" role="button"><i
+              class="fab fa-twitter"></i></a>
+  
+          <!-- Google -->
+          <a class="btn btn-primary btn-floating m-1" style="background-color: #dd4b39;" href="#!" role="button"><i
+              class="fab fa-google"></i></a>
+  
+          <!-- Instagram -->
+          <a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac;" href="#!" role="button"><i
+              class="fab fa-instagram"></i></a>
+  
+          <!-- Linkedin -->
+          <a class="btn btn-primary btn-floating m-1" style="background-color: #0082ca;" href="#!" role="button"><i
+              class="fab fa-linkedin-in"></i></a>
+          <!-- Github -->
+          <a class="btn btn-primary btn-floating m-1" style="background-color: #333333;" href="#!" role="button"><i
+              class="fab fa-github"></i></a>
+        </section>
+        <!-- Section: Social media -->
+      </div>
+      <!-- Grid container -->
+  
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2020 Copyright:
+        <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
 
-            <ul class="footerList">
-                <li class="footerItemList"> Aguirre Karina</li>
-                <li class="footerItemList">Oficina Norte: Ombu 2868</li>
-                <li class="footerItemList">Don Torcuato</li>
-                <li class="footerItemList">info@aguirreabogadosyasesores.com.ar</li>
-            </ul>
-        </footer>
-    </section>
 
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
 
 </body>
 
