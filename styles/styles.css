@@ -1,23 +1,188 @@
 * {
   padding: 0;
   margin: 0;
-}
-
-.header{
-  position: sticky;
-  top: 0;
-}
-
-.formulario{
-  display: flex;
-  justify-content: center;
+  box-sizing: border-box;
 }
 
 
-.cardsIndex{
+/* -- INDEX -- */
+
+.cardsIndex {
   width: 100%;
   height: auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  background-color: antiquewhite;
 }
+
+.cardsIndex img:hover {
+  filter: blur(5px);
+}
+
+.card-title {
+  display: flex;
+  justify-content: center;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.redes-footer {
+  height: 40px;
+}
+
+/* -- END INDEX -- */
+
+/* -- NOSOTROS -- */
+
+h2 {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 20px;
+
+
+}
+
+
+.subtitulo-nosotros {
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+
+
+.contenido-nosotros {
+  width: 100%;
+  display: flex;
+  margin: auto;
+  padding: 60px;
+  margin-top: 100px;
+
+  flex-direction: row;
+  align-items: center;
+  background-color: antiquewhite;
+
+}
+
+.contenido-nosotros img {
+  width: 500px;
+  float: left;
+  margin-right: 50px;
+
+}
+
+.contenido-nosotros img:hover {
+    
+    filter: saturate(180%);
+  
+}
+
+.contenido-nosotros p {
+  font-size: 18px;
+  font-weight: 250px;
+}
+
+/* -- END NOSOTROS -- */
+
+
+/* --SERVICIOS -- */
+.cardServicios {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  justify-content: space-evenly;
+}
+
+.cardServicios img:hover {
+  filter: saturate(180%)
+
+}
+
+.contenido-servicios {
+  justify-content: center;
+  padding-left: 20%;
+  padding-right: 20%;
+  background-color: antiquewhite;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  ;
+}
+
+.accordion-item {
+  background-color: antiquewhite;
+}
+
+/* -- END SERVICIOS -- */
+
+/* -- CONTACTO -- */
+
+.seccion-contacto p {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  font-size: 18px;
+}
+
+.formulario {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: skyblue;
+}
+
+
+.googlemaps {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+
+.datos-contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: antiquewhite;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* -- END CONTACTO -- */
+
+
+/* -- NOVEDADES --- */
+
+.seccionNovedades1{
+  display: flex;
+  flex-direction: row;
+ justify-content: space-evenly;
+ padding-top: 20px;
+ padding-bottom: 20px;
+
+}
+
+.seccionNovedades2{
+  display: flex;
+  flex-direction: row;
+ justify-content: space-evenly;
+ padding-top: 20px;
+ padding-bottom: 20px;
+
+}
+
+/* -- END NOVEDADES -- /*
