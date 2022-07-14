@@ -1,0 +1,32 @@
+/* -- NOVEDADES --- */
+
+
+.seccion-novedades {
+    h2 {
+        display: flex;
+        justify-content: center;
+        padding-top: 50px;
+        padding-bottom: 20px;
+        font-family: 'Noto Sans JP';
+    }
+}
+
+.seccionNovedades1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.seccionNovedades2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+/* -- END NOVEDADES -- */

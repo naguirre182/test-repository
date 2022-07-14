@@ -1,0 +1,47 @@
+/* --SERVICIOS -- */
+
+.seccion-servicios {
+    h2 {
+        display: flex;
+        justify-content: center;
+        padding-top: 50px;
+        padding-bottom: 20px;
+        font-family: 'Noto Sans JP';
+    }
+}
+
+
+.cardServicios {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: space-evenly;
+}
+
+.cardServicios img:hover {
+    filter: saturate(180%)
+}
+
+.contenido-servicios {
+    justify-content: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    background-color: antiquewhite;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    ;
+}
+
+.accordion-item {
+    background-color: antiquewhite;
+    padding: 20px;
+
+}
+
+.card-text {
+    display: flex;
+    justify-content: center;
+}
+
+/* -- END SERVICIOS -- */

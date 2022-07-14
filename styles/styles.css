@@ -1,11 +1,14 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-
 /* -- INDEX -- */
+.seccion-contacto {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+.seccion-contacto h2 {
+  font-family: "Noto Sans JP";
+  font-style: normal;
+  font-weight: 300;
+}
 
 .cardsIndex {
   width: 100%;
@@ -17,20 +20,17 @@
   padding-top: 20px;
   background-color: antiquewhite;
 }
-
 .cardsIndex img:hover {
   filter: blur(5px);
 }
-
-.card-title {
-  display: flex;
-  justify-content: center;
-}
-
-.card-body {
+.cardsIndex .card-body {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.cardsIndex card-title {
+  display: flex;
+  justify-content: center;
 }
 
 .redes-footer {
@@ -38,28 +38,26 @@
 }
 
 /* -- END INDEX -- */
-
 /* -- NOSOTROS -- */
-
-h2 {
+.seccion-nosotros {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.seccion-nosotros h2 {
   display: flex;
   justify-content: center;
   padding-top: 50px;
   padding-bottom: 20px;
-
-
+  font-family: "Noto Sans JP";
 }
-
-
-.subtitulo-nosotros {
+.seccion-nosotros p {
   display: flex;
   justify-content: center;
   font-size: 18px;
-  font-weight: bold;
+  font-weight: 250px;
+  font-family: "Noto Sans JP";
 }
-
-
-
 
 .contenido-nosotros {
   width: 100%;
@@ -67,35 +65,33 @@ h2 {
   margin: auto;
   padding: 60px;
   margin-top: 100px;
-
   flex-direction: row;
   align-items: center;
   background-color: antiquewhite;
-
 }
-
 .contenido-nosotros img {
   width: 500px;
   float: left;
   margin-right: 50px;
-
 }
-
 .contenido-nosotros img:hover {
-    
-    filter: saturate(180%);
-  
+  filter: saturate(180%);
 }
-
 .contenido-nosotros p {
-  font-size: 18px;
-  font-weight: 250px;
+  font-family: "Noto Sans JP";
+  padding: 10px;
 }
 
 /* -- END NOSOTROS -- */
-
-
 /* --SERVICIOS -- */
+.seccion-servicios h2 {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  font-family: "Noto Sans JP";
+}
+
 .cardServicios {
   display: flex;
   flex-direction: row;
@@ -105,8 +101,7 @@ h2 {
 }
 
 .cardServicios img:hover {
-  filter: saturate(180%)
-
+  filter: saturate(180%);
 }
 
 .contenido-servicios {
@@ -116,23 +111,82 @@ h2 {
   background-color: antiquewhite;
   padding-bottom: 20px;
   padding-top: 20px;
-  ;
 }
 
 .accordion-item {
   background-color: antiquewhite;
+  padding: 20px;
+}
+
+.card-text {
+  display: flex;
+  justify-content: center;
 }
 
 /* -- END SERVICIOS -- */
+/* -- NOVEDADES --- */
+.seccion-novedades h2 {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  font-family: "Noto Sans JP";
+}
 
+.seccionNovedades1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.seccionNovedades2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* -- END NOVEDADES -- */
 /* -- CONTACTO -- */
-
+.seccion-contacto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.seccion-contacto h2 {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  font-family: "Noto Sans JP";
+}
 .seccion-contacto p {
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 250px;
+  font-family: "Noto Sans JP";
+}
+
+.datos-contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: antiquewhite;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: "Noto Sans JP";
+}
+
+.googlemaps {
   display: flex;
   flex-direction: row;
   justify-content: center;
-
-  font-size: 18px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .formulario {
@@ -143,46 +197,6 @@ h2 {
   background-color: skyblue;
 }
 
-
-.googlemaps {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
-
-}
-
-.datos-contacto {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: antiquewhite;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
 /* -- END CONTACTO -- */
 
-
-/* -- NOVEDADES --- */
-
-.seccionNovedades1{
-  display: flex;
-  flex-direction: row;
- justify-content: space-evenly;
- padding-top: 20px;
- padding-bottom: 20px;
-
-}
-
-.seccionNovedades2{
-  display: flex;
-  flex-direction: row;
- justify-content: space-evenly;
- padding-top: 20px;
- padding-bottom: 20px;
-
-}
-
-/* -- END NOVEDADES -- /*
+/*# sourceMappingURL=styles.css.map */
